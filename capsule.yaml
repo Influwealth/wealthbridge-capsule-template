@@ -1,0 +1,34 @@
+capsule:
+  name: wealthbridge-capsule-template
+  version: 0.1.0
+  owner: influwealth
+  domain: infrastructure
+  visibility: public
+  maturity: experimental
+
+runtime:
+  language: python
+  entrypoint: src/core/capsule.py
+  memory:
+    min_mb: 256
+    preferred_mb: 1024
+  compute:
+    gpu: optional
+    vgpu_ok: true
+
+interfaces:
+  inputs: interfaces/inputs.schema.json
+  outputs: interfaces/outputs.schema.json
+  events: interfaces/events.schema.json
+
+integrations:
+  sumc: true
+  mcp: true
+  qnet: optional
+  roblox: optional
+
+policy:
+  youth_safe: false
+  pii_allowed: false
+  financial_actions: false
+  audit_required: true
