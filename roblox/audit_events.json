@@ -1,0 +1,6 @@
+{
+  "events": [
+    "QUEST_COMPLETED",
+    "CREDIT_AWARDED"
+  ]
+}

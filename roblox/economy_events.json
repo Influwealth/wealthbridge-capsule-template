@@ -1,0 +1,7 @@
+{
+  "events": [
+    "CREDIT_EARNED",
+    "CREDIT_SPENT",
+    "REDEMPTION_REQUESTED"
+  ]
+}

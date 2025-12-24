@@ -1,0 +1,12 @@
+{
+  "district": "East Flatbush",
+  "theme": "90s Brooklyn",
+  "quests": [
+    {
+      "id": "BUDGET_BLOCK_PARTY",
+      "credits": 50,
+      "requires_guardian": false,
+      "audit": true
+    }
+  ]
+}
